@@ -1,0 +1,29 @@
+{
+   "processed": true,
+   "calibration_directories": "/media/elea/ssd/NPP/calib/2022-07-06_C_1",
+   "waveleghts": "550nm",
+   "parameters": {
+      "directories": [
+         "/media/elea/ssd/NPP/"
+      ],
+      "calib_directory": "/media/elea/ssd/NPP/calib/",
+      "wavelengths": [
+         550,
+         600
+      ],
+      "parameter_set": "default",
+      "PDDN": "no",
+      "PDDN_models_path": "/home/elea/Documents/HORAO/repositories/processingMM/src/processingmm/PDDN_model",
+      "run_all": true,
+      "processing_mode": "no_viz",
+      "time_mode": true,
+      "save_pdf_figs": false,
+      "align_wls": false,
+      "remove_reflection": false,
+      "instrument": "IMP",
+      "denoise_patch": false,
+      "mm_processing": "torch"
+   },
+   "libmpMuelMat": "1.0",
+   "processingmm": "2.0"
+}
